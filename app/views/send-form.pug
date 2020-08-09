@@ -1,0 +1,11 @@
+extends layouts/main.pug
+
+block content
+    h2.card-header Formulario de Envío
+    div.card-body
+        form.mt-2(method='POST' action='/response-name')
+            div.form-group
+                label(for="nombre") Nombre:
+                input.form-control(type="text", name="nombre", placeholder="Escriba algo aquí...", required)
+            br
+            button.btn.btn-primary(type='submit') Enviar

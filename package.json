@@ -1,0 +1,27 @@
+{
+  "name": "prueba-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Víctor Acuña U",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "http-errors": "^1.8.0",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {}
+}

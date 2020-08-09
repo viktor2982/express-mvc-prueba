@@ -1,0 +1,10 @@
+extends layouts/main.pug
+
+block content
+        h2.card-header Respuesta de Formuario
+        div.card-body
+            h5 Nombre en formato "Slug URL": 
+            div.shadow-sm.mt-3.p-3.bg-light.rounded.text-center
+                h3= slugName
+            br
+            a(class="btn btn-success" href="/") Volver

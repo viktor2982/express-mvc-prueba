@@ -1,0 +1,23 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel="stylesheet", href="/node_modules/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/public/css/styles.css")
+    block title
+      title Prueba ValoraLabs
+  body
+    nav.navbar.navbar-dark.bg-danger.mb-4
+      .container
+        .navbar-header
+          h1.navbar-brand.mb-0 MVC + NodeJS + ExpressJS | Prueba de Selección ValoraLabs
+
+    .container
+      div.card
+        block content
+
+      hr
+      footer.footer
+          p.
+            2020&copy; Víctor Acuña U
