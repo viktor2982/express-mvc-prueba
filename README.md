@@ -1,5 +1,4 @@
 # Prueba de Selección ValoraLabs - NodeJS + ExpressJS + MVC
-===========================================================
 
 Ejemplo que muestra el uso de las tecnologías de desarrollo NodeJS + ExpressJS con patrón MVC
 
