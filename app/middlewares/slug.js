@@ -7,7 +7,7 @@ module.exports = {
      * @description Middleware que transforma el valor del campo nombre en formato Slug URL
      */
     slugUrlFormat: (req, res, next) => {
-        const body = req.body;
+        const { body } = req;
         // Setea locals para almacenar el nombre sanitizado y formateado en Slug URL
         res.locals.slugName = helpers.toSlugString(body.nombre);
         next();

@@ -8,7 +8,7 @@ const controllers = {};
 // Obtiene todos los archivos controladores
 const files = glob.sync(path.join(process.cwd(), 'app', 'controllers', '**', '*.js'));
 
-// Recorre los archivos controladores y los carga de manera dinámica
+// Recorre los archivos controladores y carga los require de manera dinámica
 files.forEach((file) => {
     let temp = controllers;
     const parts = path.relative(path.join(process.cwd(), 'app', 'controllers'), file).slice(0, -3).split(path.sep);
